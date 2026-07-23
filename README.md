@@ -1,64 +1,113 @@
-<div align="center">
-Hi 👋, I'm Yao Junyue
+<h1 align="center">Hi 👋, I'm Yao Junyue</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/土木工程-金陵科技学院-0066CC?style=for-the-badge&logo=google-scholar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-计算机二级-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/English-CET4-22c55e?style=for-the-badge&logo=googletranslate&logoColor=white" />
+</p>
+
+<h3 align="center">
 🏗️ Civil Engineering Student · 💻 Python Developer · 🤖 Building CAD-MCP v3.0
-金陵科技学院 · 土木工程 · 2023 级
-</div>
-🧑‍🎓 About Me
-🎓 金陵科技学院 土木工程专业在读 (Class of 2023)
-💻 持有 计算机二级 (Python) + CET-4 证书
-🔧 主攻方向：结构施工图自动化 + CAD 与 AI 集成
-📐 熟悉 22G101 平法图集、钢筋排布规则、AutoCAD 制图规范
-🚀 Featured Project
-CAD-MCP v3.0
-  AI 驱动的 AutoCAD 结构施工图 MCP 服务器
-20 个 MCP 工具，覆盖画线/圆/弧/文字/标注/读操作
-8 个参数化技能包：承台、桩身、纵筋、箍筋、钢筋布置、尺寸标注、桩位、图层
-双后端架构：COM (AutoCAD) + ezdxf (无头生成 DXF)
-Plan/Act 模式 + 预览验证 + 错误自修正
-58 个 pytest 测试 100% 通过
-# 一次调用生成完整的承台钢筋图
-await execute_plan(
+</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-20_Tools-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Skills-8_Packages-00B4D8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tests-58%2F58_Pass-22c55e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-v3.0.0-8b5cf6?style=for-the-badge" />
+</p>
+
+---
+
+## 🚀 Featured Project
+
+### ⭐ [CAD-MCP v3.0](https://github.com/yue5025/cad-mcp)
+
+> **AI 驱动的 AutoCAD 结构施工图 MCP 服务器** — 用一句话画出结构施工图
+
+| 维度 | 指标 |
+|------|------|
+| MCP 工具 | 20 个（draw_line / preview / plan / execute / verify 等） |
+| 参数化技能包 | 8 个（承台/桩身/纵筋/箍筋/钢筋/标注/桩位/图层） |
+| 后端架构 | COM (AutoCAD) + ezdxf (无头) 双后端 |
+| 测试覆盖 | 58 个 pytest 用例，100% 通过 |
+| 核心模式 | Plan → Preview → Execute → Verify → Retry |
+
+**典型工作流：**
+
+```python
+# AI 工程师说：画一个 3×3 桩位的承台钢筋图
+plan = plan_operation(
     skill_name="platform_rebar",
-    params={"width": 3150, "length": 3150, "bar_spacing": 150}
+    width=3150, length=3150, bar_spacing=150
 )
-技术栈： Python · ezdxf · pywin32 · MCP SDK · pytest · pydantic
-🛠️ Tech Stack
+# AI 审核 → execute_plan → 84 步自动完成
+```
+
+**技术栈：**
+
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/AutoCAD-DA3B2A?style=flat-square&logo=autodesk&logoColor=white" />
   <img src="https://img.shields.io/badge/ezdxf-FF6B6B?style=flat-square&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=apachespark&logoColor=white" />
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/pywin32-FFD43B?style=flat-square&logo=windows&logoColor=black" />
   <img src="https://img.shields.io/badge/pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
 </p>
-🎯 Current Focus
-      领域
-      进展
-      CAD-MCP v3.0
-      20 个 MCP 工具 + 8 个技能包，已通过 58 个测试
-      结构施工图自动化
-      实现 Plan→预览→批量绘制→验证闭环
-      AutoCAD 2027 MCP 接入
-      调研 Autodesk Assistant + Marketplace 路径
-📚 学习路径
-2023 ────────── 2024 ─────────── 2025 ───────────► 2026
- │                │                 │                │
- ▼                ▼                 ▼                ▼
-土木工程       计算机二级          CAD-MCP v1        CAD-MCP v3.0
-入学           (Python)           (COM 起步)         (双后端+技能包)
-                                  CET-4 通过         Marketplace 认证准备中
-🤝 Connect
-<p>
+
+---
+
+## 🧑‍🎓 About Me
+
+- 🎓 **金陵科技学院** · 土木工程 · 2023 级
+- 💻 持有 **计算机二级 (Python)** + **CET-4** 证书
+- 📐 熟悉 **22G101 平法图集**、钢筋排布、AutoCAD 制图规范
+- 🔧 主攻方向：**结构施工图自动化** + **CAD 与 AI 集成**
+
+---
+
+## 🎯 Current Focus
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  CAD-MCP v3.0  ─→  Plan/Act  +  8 技能包  +  58 测试  │
+│        │                                                  │
+│        ├─→  Phase 4:  batch_render CLI / 套图生成         │
+│        ├─→  Phase 5:  AutoCAD 2027 Marketplace 认证       │
+│        └─→  持续:    CAD 行业 AI 工具调研                  │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📐 可参考规范与作品
+
+| 类型 | 内容 |
+|------|------|
+| 制图规范 | 22G101 平法图集、混凝土结构施工图平面整体表示方法 |
+| 自动化成果 | 水坝正截面图、桩基础施工图（4 子图）、大门正立面图 |
+| 输出格式 | DXF（DWG via AutoCAD） + matplotlib PNG 预览 |
+
+---
+
+## 🤝 Connect
+
+<p align="center">
   <a href="https://github.com/yue5025">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="mailto:83467027@qq.com">
-    <img src="https://img.shields.io/badge/QQ_Mail-D14836?style=flat-square&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-83467027@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-<div align="center">
-⭐ 如果 CAD-MCP 对你有帮助，欢迎点个 Star！
-"Building the bridge between civil engineering and AI"
-</div>
+
+---
+
+<p align="center">
+  <em>💡 "Building the bridge between civil engineering and AI"</em>
+</p>
+
+<p align="center">
+  ⭐ 如果 CAD-MCP 对你有帮助，欢迎点个 <a href="https://github.com/yue5025/cad-mcp">Star</a>！
+</p>
