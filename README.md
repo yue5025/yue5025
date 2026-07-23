@@ -1,71 +1,64 @@
-<p align="center">
-  <img width="500" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Yao+Junyue;%E5%9C%9F%E6%9C%A8%E5%B7%A5%E7%A8%8B+%2B+Python;Building+the+Future%2C+One+Line+at+a+Time" alt="Typing SVG" />
+<div align="center">
+Hi 👋, I'm Yao Junyue
+🏗️ Civil Engineering Student · 💻 Python Developer · 🤖 Building CAD-MCP v3.0
+金陵科技学院 · 土木工程 · 2023 级
+</div>
+🧑‍🎓 About Me
+🎓 金陵科技学院 土木工程专业在读 (Class of 2023)
+💻 持有 计算机二级 (Python) + CET-4 证书
+🔧 主攻方向：结构施工图自动化 + CAD 与 AI 集成
+📐 熟悉 22G101 平法图集、钢筋排布规则、AutoCAD 制图规范
+🚀 Featured Project
+CAD-MCP v3.0
+  AI 驱动的 AutoCAD 结构施工图 MCP 服务器
+20 个 MCP 工具，覆盖画线/圆/弧/文字/标注/读操作
+8 个参数化技能包：承台、桩身、纵筋、箍筋、钢筋布置、尺寸标注、桩位、图层
+双后端架构：COM (AutoCAD) + ezdxf (无头生成 DXF)
+Plan/Act 模式 + 预览验证 + 错误自修正
+58 个 pytest 测试 100% 通过
+# 一次调用生成完整的承台钢筋图
+await execute_plan(
+    skill_name="platform_rebar",
+    params={"width": 3150, "length": 3150, "bar_spacing": 150}
+)
+技术栈： Python · ezdxf · pywin32 · MCP SDK · pytest · pydantic
+🛠️ Tech Stack
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AutoCAD-DA3B2A?style=flat-square&logo=autodesk&logoColor=white" />
+  <img src="https://img.shields.io/badge/ezdxf-FF6B6B?style=flat-square&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
 </p>
-<p align="center">
-  <img src="https://img.shields.io/badge/土木工程-金陵科技学院-blue?style=for-the-badge&logo=google-scholar&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-计算机二级-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/English-CET4-success?style=for-the-badge&logo=googletranslate&logoColor=white" />
-</p>
-🏗️ About Me
-🎓 Civil Engineering student at Jinling Institute of Technology, Class of 2023
-💻 Passionate about bridging construction engineering with software development
-🛠️ Building CAD-MCP v3.0 — an AI-powered structural drawing MCP server
-📐 Specialized in structural construction drawing automation (22G101 standard)
-🔥 What I'm Working On
-🏢 CAD-MCP v3.0 — Model Context Protocol server for AutoCAD structural drawing
-  20 MCP tools + 8 parametric skill packages
-  Dual backend: COM (AutoCAD) + ezdxf (headless DXF generation)
-  Plan/Act mode with auto-verification
-  58 pytest cases, 100% pass rate
-📚 Exploring AI applications in civil engineering
-🔧 Learning AutoCAD 2027 MCP integration
-📊 Skills
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AutoCAD-DA3B2A?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/DXF/ezdxf-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
-  <img src="https://img.shields.io/badge/pywin32-FFD43B?style=for-the-badge&logo=windows&logoColor=black" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
-🏆 Domains
-<p align="left">
-  <img src="https://img.shields.io/badge/Structural_Drawing-00B4D8?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pile_Foundation-023E8A?style=for-the-badge&logo=concrete&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rebar_Detailing-FF6B6B?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/22G101_Standard-48CAE4?style=for-the-badge&logo=bookstack&logoColor=white" />
-</p>
-📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yue5025&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yue5025&theme=radical&hide_border=true&background=0D1117&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B" alt="GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yue5025&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yue5025&theme=radical&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yue5025&theme=react-dark&hide_border=true&area=true&bg_color=0D1117" alt="Contribution Graph" />
-</p>
+🎯 Current Focus
+      领域
+      进展
+      CAD-MCP v3.0
+      20 个 MCP 工具 + 8 个技能包，已通过 58 个测试
+      结构施工图自动化
+      实现 Plan→预览→批量绘制→验证闭环
+      AutoCAD 2027 MCP 接入
+      调研 Autodesk Assistant + Marketplace 路径
+📚 学习路径
+2023 ────────── 2024 ─────────── 2025 ───────────► 2026
+ │                │                 │                │
+ ▼                ▼                 ▼                ▼
+土木工程       计算机二级          CAD-MCP v1        CAD-MCP v3.0
+入学           (Python)           (COM 起步)         (双后端+技能包)
+                                  CET-4 通过         Marketplace 认证准备中
 🤝 Connect
-<p align="center">
+<p>
   <a href="https://github.com/yue5025">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
   </a>
   <a href="mailto:83467027@qq.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/QQ_Mail-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yue5025&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-<p align="center">
-  <em>💡 "Building the bridge between civil engineering and AI"</em>
-</p>
+<div align="center">
+⭐ 如果 CAD-MCP 对你有帮助，欢迎点个 Star！
+"Building the bridge between civil engineering and AI"
+</div>
